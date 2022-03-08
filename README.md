@@ -17,3 +17,19 @@ more info here
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment
 
 You will also need to download and extract the glove embeddings into the inputs folder
+
+
+To launch 
+
+conda activate TextTF
+jupyter notebook
+
+
+
+If the environment configuration fails try the following
+
+conda create --name TextTF
+conda activate TextTF
+conda install scikit-learn matplotlib tensorflow jupyter pandas
+
+
