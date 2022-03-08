@@ -22,6 +22,7 @@ You will also need to download and extract the glove embeddings into the inputs 
 To launch 
 
 conda activate TextTF
+
 jupyter notebook
 
 
@@ -29,7 +30,9 @@ jupyter notebook
 If the environment configuration fails try the following
 
 conda create --name TextTF
+
 conda activate TextTF
+
 conda install scikit-learn matplotlib tensorflow jupyter pandas
 
 
