@@ -11,7 +11,7 @@ To try this out install miniconda
 
 Then create a virtual environment using the following command
 
-conda env export > environment.yml
+conda env create -f environment.yml
 
 more info here
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment
